@@ -29,6 +29,7 @@ class MessageList extends Component {
                     ...styles.container,
                 }}
             >
+
                 <ul style={styles.ul}>
                     {this.props.messages.map((message, index) =>(
                         <li key={index} style={styles.li}>
